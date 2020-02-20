@@ -1,0 +1,203 @@
+.fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-youtube {
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+  .fa-instagram {
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+  
+  .fa-github {
+    background: rgba(0, 0, 0, 0);
+    color: rgb(255, 255, 255);
+  }
+
+body {
+    background-color: rgb(39,60,117);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cricky {
+    color: rgb(46,191,144);
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.crickycalls {
+    font-size: 100px;
+}
+
+.author {
+    font-size: 24px;
+    margin-top: -80px;
+    margin-left: 49%;
+}
+
+.links {
+    margin-left: 63%;
+    margin-top: -26px;
+}
+
+.inputs {
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+.costtext {
+    margin-left: 60px;
+    margin-right: 4px;
+    font-size: 18px;
+    float: left;
+}
+.cost {
+    float: left;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 12px;
+    border-color: white;
+    width: 80px;
+    color: white;
+    border-style: solid;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.strikepricetext {
+margin-left: 60px;
+margin-right: 4px;
+font-size: 18px;
+float: left;
+}
+.strikeprice {
+float: left;
+outline: none;
+background-color: rgba(0, 0, 0, 0.274);
+border-radius: 12px;
+border-color: white;
+width: 80px;
+color: white;
+border-style: solid;
+height: 30px;
+font-size: 18px;
+margin-top: 10px;
+}
+.orderstext {
+    margin-left: 60px;
+    margin-right: 4px;
+    font-size: 18px;
+    float: left;
+}
+
+.orders {
+    float: left;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0.274);
+    border-radius: 12px;
+    border-color: white;
+    width: 80px;
+    color: white;
+    border-style: solid;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.stockprice {
+    width: 60%;
+    margin-top: 2px;
+    margin-left: 60px;
+    outline: none;
+    height: 16px;
+    background: #F45530;
+    background: -moz-linear-gradient(left, #F45530 0%, #1A1A1D 50%, #22CE99 100%);
+    background: -webkit-linear-gradient(left, #F45530 0%, #1A1A1D 50%, #22CE99 100%);
+    background: linear-gradient(to right, #F45530 0%, #1A1A1D 50%, #22CE99 100%);
+    -webkit-appearance: none;
+    border-radius: 8px;
+    border: 2px;
+    border-color: white;
+    margin-bottom: 60px;
+}
+
+.stockprice::-webkit-slider-thumb {
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+}
+
+.worst {
+    float: left;
+    color: #F45530;
+    background: none;
+    border: 2px;
+    border-radius: 16px;
+    border-color: #F45530;
+    height: 60px;
+    width: 300px;
+    margin-left: 5%;
+}
+
+.worstt {
+    color: #F45530;
+    font-size: 30px;
+    border: 2px;
+    border-color: #F45530;
+    float: left;
+}
+
+.jsworst {
+    color: #F45530;
+    float: left;
+    font-size: 30px;
+    border: 2px;
+    border-color: #F45530;
+}
+
+
+.profit {
+    float: left;
+    color: #22CE99;
+    height: 60px;
+    width: 300px;
+    margin-right: 20%;
+    margin-left: 400px;
+}
+
+.profitt {
+    color: #22CE99;
+    font-size: 30px;
+    border-color: #22CE99;
+    float: left;
+}
+
+.jsprofit {
+    color: #22CE99;
+    float: left;
+    font-size: 30px;
+    border: 2px;
+    border-color: #22CE99;
+}
+
+.stockpricee {
+    color: white;
+    font-size: 32px;
+    margin-top: 120px;
+    margin-left: 57%;
+}

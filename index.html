@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class='cricky'>
+        <h1 class='crickycalls'>Cricky Calls</h1>
+        <p class='author'>by Christopher Kapic</p>
+        <div class='links'>
+            <a href="https://www.youtube.com/channel/UCFawxgQcuPo8jkXvNGTprhA" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/christopher.kapic/" class="fa fa-instagram"></a>
+            <a href="https://github.com/christopher-kapic" class="fa fa-github"></a>
+        </div>
+    </div>
+    <div class='inputs' id=inputs>
+        <p class='strikepricetext'>strike price: </p>
+        <input type="number" class='strikeprice' id=strikeprice>
+        <p class='costtext'>cost: </p>
+        <input type="number" class='cost' id=cost>
+        <p class='orderstext'>number of orders: </p>
+        <input type="number" class='orders' id=orders>
+    </div>
+    <div class='slider' id=slider>
+        <p id=stockpricee class="stockpricee">[void]</p>
+        <input type="range" min="-100" max="100" value="0" name="stockprice" id=stockprice class="stockprice" oninput="update()">
+    </div>
+    <div class='cases' id=cases>
+        <div class='worst'>
+            <p class="worstt">worst case: </p>
+            <p id=jsworst class="jsworst">[void]</p>
+        </div>
+        <div class='profit'>
+            <p class="profitt">profit: </p>
+            <p id=jsprofit class="jsprofit">[void]</p>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+</html>
